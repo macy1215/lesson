@@ -1,0 +1,30 @@
+
+        /* CSS Selector 選擇器 */
+        /*標籤選擇器:直接寫標籤名稱 常用 a body ...等*/
+        /*標籤class通常在CSS使用 ID 比較偏向JS*/
+        span{
+            text-decoration:underline;
+        }
+        body{
+            background-color:#dddddd
+        }
+        /* class選擇器:特色是名字的前面加一個 . */
+        /* id 選擇器:特色是名字的前面加一個 #  */
+      
+        #title{
+            font-size:20px;
+            font-weight:bold; 
+            margin-bottom: 10px;
+        }
+        .ph{
+            width: 400px;
+            color: grey; 
+            border:1px dashed blue; 
+            padding: 10px;
+        }
+        .key{
+            color:red;
+        }
+        .bold{
+            font-weight: bold;
+        }
