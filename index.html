@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HomePage</title>
+</head>
+<body>
+    <!--
+        換行的準則
+        1.程式碼中的換行不重要-與結果沒有關係
+        2.注意標籤的顯示模式(display)
+            2.1 行內模式 inline  a 
+            2.2 區塊模式 block (自動換行) ul.img. span沒有內文的行內模式標籤
+        3.隨時可以使用<br/> 進行換行 break line 沒有內文的區塊模式標籤
+
+    -->
+    <h3>My Profile <br/>我的基本資料</h3>
+    <a href="http://www.google.com.tw">Google</a>
+    <img src="img/youtube.png" alt="img"/>
+    <hr/>
+    <!--以下介紹列表-->
+    <h3>My Favorite</h3>
+    <ul>
+        <li><a href="http://www.google.com.tw" target="_blank">Google</a></li>
+        <li>
+            <a href="https://www.instagram.com/">
+            <img src="img/2wPYyq9Ejn4.png" style="width:50px;" 
+            onmouseover="this.src='img/facebook.png';"
+            onmouseout="this.src='img/2wPYyq9Ejn4.png';"/>
+            Instagram
+            </a>
+        </li>
+    </ul>
+    <!--以下介紹表格-->
+    <h3>MLB Board</h3>
+    <table border="1" width="300" cellpadding="10"> 
+        <tr>
+            <td colspan="3" style="text-align:center;">America East</td>
+            <!--橫跨欄位 : colspan-->
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">America East</td>
+            <!--橫跨欄位 : colspan-->
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Win</td>
+            <td>Lose</td>
+        </tr>
+        <tr>
+            <td>NY Yankees</td>
+            <td>10</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Boston</td>
+            <td>9</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>
